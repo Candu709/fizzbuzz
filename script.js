@@ -8,3 +8,11 @@ function divisibleBy(dividend,divisor,message) {
   if (dividend%divisor==0) {return message};
   return ''
 }
+
+for (let i = 1; i <= input; i++) {
+  let output = ''
+  output += divisibleBy(i,3,`Fizz`)
+  output += divisibleBy(i,5,`Buzz`)
+  if(output == ''){output=i}
+  console.log(output)
+}
