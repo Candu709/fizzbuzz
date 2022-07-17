@@ -13,10 +13,6 @@ for (let i = 1; i <= input; i++) {
   let output = ''
   output += divisibleBy(i,3,`Fizz`)
   output += divisibleBy(i,5,`Buzz`)
-<<<<<<< HEAD
   if (output == '') {output=i}
-=======
-  if(output == ''){output=i}
->>>>>>> refs/remotes/origin/main
   console.log(output)
 }
